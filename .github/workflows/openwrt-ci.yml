@@ -6,13 +6,14 @@
 # 
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
+# delete merge .yml file, for build03 trial
 
 name: OpenWrt-Mhouse
 
 on:
   push:
     branches: 
-      - CI-Mhouse02-PidayBuild
+      - CI-Mhouse03-PidayBuild
   #     ↑↑↑ 改成你的分支名, 一般是master
   # schedule:
   #   - cron: 0 20 * * *
